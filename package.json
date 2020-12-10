@@ -7,7 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.10",
     "core-js": "^3.6.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactivue": "^0.2.3",
     "vue": "^3.0.0"
   },
   "devDependencies": {
