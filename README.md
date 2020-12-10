@@ -1,19 +1,9 @@
-# react-integration-test
+# React + Vue 3 Data Sharing
 
-## Project setup
-```
-yarn install
-```
+![A button in Vue mutating a window object which React renders](./demo.png)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+This project is an example of rendering a `window` object in React that's mutated from Vue.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+The Vue component lives: [here](./src/App.vue)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The React component lives: [here](./src/Test.js)
